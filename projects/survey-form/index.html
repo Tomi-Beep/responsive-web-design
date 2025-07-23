@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <title>Survey Form</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Slay the form house boots down</p>
+<form id="survey-form">
+<label for="name" id="name-label">Please enter your full name.</label>
+<input id="name" type="text" placeholder="Dunavka Trifunovska" required>
+<label for="email" id="email-label">Please enter your email.</label>
+<input id="email" type="email" placeholder="dunavkatrifunovska@makedonija.mk" required>
+<label for="number" id="number-label">Please enter your age.</label>
+<input id="number" type="number" min="13" max="120" placeholder="35">
+
+<label for="dropdown">Please select a race.</label>
+<select id="dropdown">
+  <option>(select one)</option>
+  <option>Shalissa</option>
+  <option>Vanessa</option>
+</select>
+
+<fieldset>
+  <legend>Select your sexuality.</legend>
+<label for="sexuality1"><input type="radio" id="sexuality1" name="sexuality" value="oh"> Gaymer</label>
+
+<label for="sexuality2"><input type="radio" id="sexuality2" name="sexuality" value="normal"> Straightener</label>
+</fieldset>
+
+<label for="alright">
+<input id="alright" type="checkbox" value="1">
+Are you all alright?</label>
+<label for="all-left">
+<input id="all-left" type="checkbox" value="2">
+No, you're all all left.</label>
+
+<label for="objasni">
+Objasni se. 
+<textarea id="objasni"></textarea></label>
+
+<input id="submit" type="submit" value="Submit">
+</form>
+</body>
