@@ -1,0 +1,18 @@
+body{
+  text-align:center;
+  font-family: candara;
+}
+
+fieldset{
+  margin-top:1em;
+}
+
+label{
+  display: block;
+  margin: 0.5em 0;
+}
+
+textarea{
+  display: block;
+  margin: 0.5em auto 0 auto;
+}
