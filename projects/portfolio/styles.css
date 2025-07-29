@@ -1,0 +1,207 @@
+        /* Basic Reset & Dark Academia Theme Variables */
+        :root {
+            --primary-bg: #2a3d33; /* Dark Matcha/Forest Green */
+            --secondary-bg: #223028; /* Even Darker Green */
+            --card-bg: #3e5247; /* Lighter, muted green for cards */
+            --text-primary: #e8e3d8; /* Cream/Parchment */
+            --text-secondary: #a29b8f; /* Muted Parchment */
+            --accent-color: #9d2b2b; /* Rich Crimson */
+            --border-color: #5a4e41; /* Sepia/Brown border */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-primary);
+            line-height: 1.8;
+            background-image: url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%233e5247" fill-opacity="0.1"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+        }
+
+        /* Navigation Bar */
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(42, 61, 51, 0.85); /* Dark Green with blur */
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+            padding: 1.25rem 2rem;
+            z-index: 1000;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 3rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: color 0.4s ease, text-shadow 0.4s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+            text-shadow: 0 0 5px var(--accent-color);
+        }
+
+        /* Welcome Section */
+        #welcome-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 0 2rem;
+            background-color: transparent;
+        }
+
+        #welcome-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        #welcome-section p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 6rem 2rem;
+            background-color: var(--secondary-bg);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        #projects h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 4rem;
+            color: var(--text-primary);
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .project-tile {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 4px; 
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: border-color 0.3s ease, background-color 0.3s ease;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .project-tile:hover {
+            border-color: var(--accent-color);
+            background-color: #4a6155;
+        }
+
+        .project-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+        
+        /* Contact Section */
+        #contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 7rem 2rem;
+        }
+
+        #contact h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        #contact p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            max-width: 550px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .social-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: var(--accent-color);
+            color: var(--text-primary);
+            border-color: var(--accent-color);
+        }
+
+        /* Footer */
+        footer {
+            padding: 2.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            background-color: var(--secondary-bg);
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            #welcome-section h1 {
+                font-size: 3.5rem;
+            }
+            #projects h2, #contact h2 {
+                font-size: 2.5rem;
+            }
+            #navbar {
+                padding: 1rem;
+            }
+            .nav-links {
+                gap: 2rem;
+            }
+        }
