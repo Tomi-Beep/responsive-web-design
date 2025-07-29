@@ -1,18 +1,86 @@
-#image{
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+body {
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+    color: black;
 }
 
-#img-div{
-  text-align: center;
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
 }
 
-h1{
-  text-align:center;
+#title {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 40px 20px 20px;
+    background-color: navy;
+    color: white;
 }
 
-#tribute-info{
-  text-align: center;
+#img-div {
+    text-align: center;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 15px;
+    font-style: italic;
+    color: gray;
+    font-size: 1.1em;
+}
+
+#tribute-info {
+    padding: 40px;
+}
+
+#headline {
+    font-size: 1.8em;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+}
+
+ul {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: aliceblue;
+    border-left: 4px solid blue;
+    list-style: none;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 40px 0;
+    padding: 25px;
+    background-color: lavender;
+    border: 1px solid lightblue;
+}
+
+h3:last-of-type {
+    text-align: center;
+    font-size: 1.3em;
+    color: darkblue;
 }
