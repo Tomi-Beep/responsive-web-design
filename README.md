@@ -22,7 +22,10 @@ This repository documents my journey through the **freeCodeCamp Responsive Web D
 
 ## About the Certification
 
-freeCodeCamp’s Responsive Web Design curriculum guides you through:
+I completed the freeCodeCamp **Responsive Web Design** certification, which you can view here:  
+`https://www.freecodecamp.org/your-username/responsive-web-design-certificate`  
+
+This curriculum guides you through:
 
 - **15 practice projects** to learn individual skills  
 - **5 capstone projects** to demonstrate mastery  
@@ -33,32 +36,27 @@ Completion of the capstones earns the Responsive Web Design certification. This 
 
 ## Key Skills Gained
 
-- Semantic, accessible HTML  
-- CSS fundamentals: colors, typography, box model  
-- Pseudo‑selectors and CSS variables  
-- Layout techniques: Flexbox & CSS Grid  
-- Responsive design with media queries  
-- CSS animations & transforms  
-- Form creation and validation  
+- Crafting **semantic, accessible HTML**  
+- Mastering **CSS fundamentals**: colors, typography, and the box model  
+- Leveraging **pseudo‑selectors** and **CSS variables** for dynamic styling  
+- Building robust layouts with **Flexbox** and **CSS Grid**  
+- Creating **responsive designs** with **media queries**  
+- Adding interactivity through **CSS animations** and **transforms**  
+- Structuring and validating **HTML forms**
 
 ---
 
-## Folder Structure
+## Navigating This Repository
 
-responsive-web-design/
-│
-├── practice/
-│ ├── project-1-folder/
-│ ├── project-2-folder/
-│ ├── … (15 mini‑project folders)
-│ └── README.md ← live‑demo links for all 15 mini‑projects
-│
-└── projects/
-├── survey-form/
-├── tribute-page/
-├── product-landing-page/
-├── technical-documentation-page/
-└── portfolio-page/ ← in development
+- **practice/**  
+  - 15 folders (one per mini‑project)  
+  - `README.md` with live‑demo links  
+- **projects/**  
+  - `survey-form/`  
+  - `tribute-page/`  
+  - `product-landing-page/`  
+  - `technical-documentation-page/`  
+  - `portfolio-page/` (in development)
 
 Feel free to explore the demos and source code in each folder.  
 Thank you for checking out my work!
