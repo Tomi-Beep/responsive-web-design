@@ -23,7 +23,7 @@ This repository documents my journey through the **freeCodeCamp Responsive Web D
 ## About the Certification
 
 I completed the freeCodeCamp **Responsive Web Design** certification, which you can view here:  
-`https://www.freecodecamp.org/your-username/responsive-web-design-certificate`  
+[freeCodeCamp Certification](https://www.freecodecamp.org/certification/tomify/responsive-web-design)  
 
 This curriculum guides you through:
 
