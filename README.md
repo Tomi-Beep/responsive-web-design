@@ -6,7 +6,7 @@ This repository documents my journey through the **freeCodeCamp Responsive Web D
   Contains the source files for 15 guided mini-projects covering core HTML & CSS concepts **plus** a `README.md` with live‑demo links.
 
 - **`projects/`**  
-  Contains the five official capstone projects for the certification, including my personal portfolio page (coming soon):
+  Contains the five official capstone projects for the certification, including my personal portfolio page:
   1. **Survey Form**  
      https://tomi-beep.github.io/responsive-web-design/projects/survey-form  
   2. **Tribute Page**  
@@ -15,8 +15,8 @@ This repository documents my journey through the **freeCodeCamp Responsive Web D
      https://tomi-beep.github.io/responsive-web-design/projects/technical-documentation-page
   4. **Product Landing Page**  
      https://tomi-beep.github.io/responsive-web-design/projects/product-landing-page  
-  6. **Portfolio Page** (in development)  
-     https://tomi-beep.github.io/responsive-web-design/projects/portfolio-page  
+  6. **Portfolio Page** 
+     https://tomi-beep.github.io/responsive-web-design/projects/portfolio
 
 ---
 
@@ -56,7 +56,7 @@ Completion of the capstones earns the Responsive Web Design certification. This 
   - `tribute-page/`  
   - `product-landing-page/`  
   - `technical-documentation-page/`  
-  - `portfolio-page/` (in development)
+  - `portfolio-page/`
 
 Feel free to explore the demos and source code in each folder.  
 Thank you for checking out my work!
