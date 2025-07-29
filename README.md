@@ -14,8 +14,8 @@ This repository documents my journey through the **freeCodeCamp Responsive Web D
   3. **Technical Documentation Page**  
      https://tomi-beep.github.io/responsive-web-design/projects/technical-documentation-page
   4. **Product Landing Page**  
-     https://tomi-beep.github.io/responsive-web-design/projects/product-landing-page  
-  6. **Portfolio Page** 
+     https://tomi-beep.github.io/responsive-web-design/projects/product-landing-page
+  5. **Portfolio Page**
      https://tomi-beep.github.io/responsive-web-design/projects/portfolio
 
 ---
